@@ -1,10 +1,12 @@
 import './App.css'
-
+import Header from "./components/Header"
+import FurniturePage from "./components/FurniturePage"
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <h1></h1>
+    <div className='main-page'>
+      <Header />
+      <FurniturePage />
+    </div>
   )
 }
 
