@@ -9,54 +9,14 @@
   background-color: rgba(222, 184, 135, 0.3);
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+#image{
+  width: 350px;
+  height: 200px;
 }
 
-body {
-  font-family: "Playfair Display", serif;
-}
-
-.searchbar {
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-}
-
-label {
-  font-weight: bold;
-  display: block;
-}
-
-.cards {
-  list-style: none;
+.cards{
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.card {
-  width: 200px;
-  height: 250px; 
-  margin: 1rem;
-  background-color: rgba(222, 184, 135, 0.3);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex: 1 1 25%; 
-  max-width: 25%;
-}
-
-.card img {
-  width: 100%;
-  height: auto; 
-  object-fit: cover;
-}
-
-.new-furniture form {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style-type: none;
 }

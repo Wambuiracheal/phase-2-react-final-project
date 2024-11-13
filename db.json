@@ -1,6 +1,13 @@
 {
   "furniture": [
     {
+      "id": "1",
+      "name": "Coffee Table",
+      "wood": "Maple",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcPW3MGBvaTf5Y80b8wHVVVb31nZtCGsQaJA&s",
+      "price": 70
+    },
+    {
       "id": "2",
       "name": "Coffee Table",
       "wood": "Maple",
@@ -16,17 +23,17 @@
     },
     {
       "id": "4",
-      "name": "",
-      "wood": "",
-      "image": "",
-      "price": 0
+      "name": "Coffee Table",
+      "wood": "Maple",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcPW3MGBvaTf5Y80b8wHVVVb31nZtCGsQaJA&s",
+      "price": 70
     },
     {
       "id": "5",
-      "name": "Walking Closet ",
-      "wood": "Teak",
-      "image": "https://media.istockphoto.com/id/1327481911/photo/modern-luxurious-walk-in-closet-interior.jpg?s=612x612&w=0&k=20&c=AsLLoUINnlSmolau83KJlVF-AiInv2LmE00GwVlrEhc=",
-      "price": "150"
+      "name": "Coffee Table",
+      "wood": "Maple",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcPW3MGBvaTf5Y80b8wHVVVb31nZtCGsQaJA&s",
+      "price": 70
     }
   ]
 }
