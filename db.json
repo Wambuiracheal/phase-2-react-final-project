@@ -3,35 +3,35 @@
         {
             "id":1,
             "name": "Sofa",
-            "wood-type":"Mahogany",
+            "wood":"Mahogany",
             "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4FEooH0c3k-yafsMvkMj0JYQ07RMt9rDdJA&s",
             "price":130
         },
         {
-            "id":1,
+            "id":2,
             "name": "Coffee Table",
-            "wood-type":"Maple",
+            "wood":"Maple",
             "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcPW3MGBvaTf5Y80b8wHVVVb31nZtCGsQaJA&s",
             "price":70
         },
         {
-            "id":1,
+            "id":3,
             "name": "Bed",
-            "wood-type":"Oak",
+            "wood":"Oak",
             "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvqiM4yjC4-7Ojj6kn192eYP0uDI8k1cNjnA&s",
             "price":200
         },
         {
-            "id":1,
+            "id":4,
             "name": "Dinning Table",
-            "wood-type":"Walnut",
+            "wood":"Walnut",
             "image":"https://libertyfurniture.co.ke/wp-content/uploads/2023/12/6-seater-black-dining-table.webp",
             "price":90
         },
         {
-            "id":1,
+            "id":5,
             "name": "Gazebo",
-            "wood-type":"Cherry",
+            "wood":"Cherry",
             "image":"https://furniturechoicekenya.com/wp-content/uploads/2024/01/71-q3cQ4EdL._AC_SL1500_.jpg",
             "price":87
         }

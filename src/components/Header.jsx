@@ -5,3 +5,5 @@ function Header(){
         </span>
     )
 }
+
+export default Header

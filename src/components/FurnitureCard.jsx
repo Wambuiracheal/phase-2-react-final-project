@@ -10,3 +10,5 @@ function FurnitureCard(){
         </form>
     )
 }
+
+export default FurnitureCard
