@@ -4,9 +4,9 @@ import FurnitureCard from "./FurnitureCard"
 function FurnitureList({furniture,setFurniture}){
 
     return(
-        <div className='cards'>
+        <ul className='cards'>
             {furniture.length > 0?furniture.map(furn => (
-                <div key={furn.id}>
+                <li key={furn.id}>
                     <FurnitureCard 
                          name={furn.name}    
                          wood={furn.wood}
@@ -17,9 +17,9 @@ function FurnitureList({furniture,setFurniture}){
                          setFurniture={setFurniture}
                     />
                    
-                </div>
+                </li>
             )):null}
-        </div>
+        </ul>
      
     )
 

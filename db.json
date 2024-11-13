@@ -1,13 +1,6 @@
 {
   "furniture": [
     {
-      "id": "1",
-      "name": "Sofa",
-      "wood": "Mahogany",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4FEooH0c3k-yafsMvkMj0JYQ07RMt9rDdJA&s",
-      "price": 130
-    },
-    {
       "id": "2",
       "name": "Coffee Table",
       "wood": "Maple",
