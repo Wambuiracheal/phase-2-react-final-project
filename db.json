@@ -1,39 +1,39 @@
 {
-    "furniture":[
-        {
-            "id":1,
-            "name": "Sofa",
-            "wood":"Mahogany",
-            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4FEooH0c3k-yafsMvkMj0JYQ07RMt9rDdJA&s",
-            "price":130
-        },
-        {
-            "id":2,
-            "name": "Coffee Table",
-            "wood":"Maple",
-            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcPW3MGBvaTf5Y80b8wHVVVb31nZtCGsQaJA&s",
-            "price":70
-        },
-        {
-            "id":3,
-            "name": "Bed",
-            "wood":"Oak",
-            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvqiM4yjC4-7Ojj6kn192eYP0uDI8k1cNjnA&s",
-            "price":200
-        },
-        {
-            "id":4,
-            "name": "Dinning Table",
-            "wood":"Walnut",
-            "image":"https://libertyfurniture.co.ke/wp-content/uploads/2023/12/6-seater-black-dining-table.webp",
-            "price":90
-        },
-        {
-            "id":5,
-            "name": "Study Table",
-            "wood":"Cherry",
-            "image":"https://5.imimg.com/data5/HI/AY/EG/SELLER-63609122/modern-study-tables.jpg",
-            "price":87
-        }
-    ]
+  "furniture": [
+    {
+      "id": "1",
+      "name": "Sofa",
+      "wood": "Mahogany",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4FEooH0c3k-yafsMvkMj0JYQ07RMt9rDdJA&s",
+      "price": 130
+    },
+    {
+      "id": "2",
+      "name": "Coffee Table",
+      "wood": "Maple",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcPW3MGBvaTf5Y80b8wHVVVb31nZtCGsQaJA&s",
+      "price": 70
+    },
+    {
+      "id": "3",
+      "name": "Bed",
+      "wood": "Oak",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvqiM4yjC4-7Ojj6kn192eYP0uDI8k1cNjnA&s",
+      "price": 200
+    },
+    {
+      "id": "4",
+      "name": "Dinning Table",
+      "wood": "Walnut",
+      "image": "https://libertyfurniture.co.ke/wp-content/uploads/2023/12/6-seater-black-dining-table.webp",
+      "price": 90
+    },
+    {
+      "id": "5",
+      "name": "Study Table",
+      "wood": "Cherry",
+      "image": "https://5.imimg.com/data5/HI/AY/EG/SELLER-63609122/modern-study-tables.jpg",
+      "price": 87
+    }
+  ]
 }

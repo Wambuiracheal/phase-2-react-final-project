@@ -5,6 +5,7 @@ function FurnitureCard({id,name,image,wood,price,furniture,setFurniture}){
         wood:"",
         image:"",
         price:0,
+        id:0
     })
 
     //DELETE FUNCTION
@@ -26,8 +27,8 @@ function FurnitureCard({id,name,image,wood,price,furniture,setFurniture}){
     //HANDLEEDIT FUNCTION
     function handleChange(e){
         e.preventDefault()
-        const name = e.target.name
-        const value = e.target.value
+        let name = e.target.name
+        let value = e.target.value
 
         setNewFurnData({
             ...newFurnData,
@@ -47,11 +48,10 @@ function FurnitureCard({id,name,image,wood,price,furniture,setFurniture}){
         .then (res => res.json())
         .then (furnt => {
             let editedFurniture = furniture.map(furn =>{
-                if(furn.id){
+                if(furn.id === furnt.id){
                     furn.name= furnt.name,
                     furn.wood= furnt.wood,
-                    furn.price= furnt.price,
-                    furn.id= furnt.id
+                    furn.price= furnt.price
                 }
                 return(furn)
             })
@@ -60,16 +60,16 @@ function FurnitureCard({id,name,image,wood,price,furniture,setFurniture}){
     }
 
     return(
-        <li>
+        <li className='card' data-testid='furniture-item'>
             <img src={image} alt={name}/>
             <h2>{name}</h2>
             <h3>{wood}</h3>
             <p>Price: ${price}</p>
             <form onSubmit={handleSubmit}>
-            <input type='text' placeholder='enter new name...' value={newFurnData.name} onChange={handleChange}/>
-            <input type='wood-type' placeholder='enter new wood-tye...' value={newFurnData.wood} onChange={handleChange}/>
-            <input type='image' placeholder='enter new image-url...' value={newFurnData.image} onChange={handleChange}/>
-            <input type='price' placeholder='enter new price...' value={newFurnData.price} onChange={handleChange}/>
+            <input type='text' name='name' placeholder='enter new name...' value={newFurnData.name} onChange={handleChange}/>
+            <input type='text' name='wood' placeholder='enter new wood-tye...' value={newFurnData.wood} onChange={handleChange}/>
+            <input type='text' name='image' placeholder='enter new image-url...' value={newFurnData.image} onChange={handleChange}/>
+            <input type='number' name='price' placeholder='enter new price...' value={newFurnData.price} onChange={handleChange}/>
             <button type='submit' className='btn-edit'>Edit Furniture</button>
         </form>
         <button onClick={handleDelete} className='btn-delete'>Delete</button>
