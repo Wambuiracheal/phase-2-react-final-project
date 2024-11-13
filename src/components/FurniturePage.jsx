@@ -14,11 +14,14 @@ function FurniturePage(){
         })
     },[])
 
+    //setting the search button
+    const displayFurniture = furniture.filter((woody) => woody.name.toLowerCase().includes(searchFurniture.toLowerCase()))
+
     return(
         <main>
             <Search searchforme = {setSearchFurniture}/>
             <NewFurnitureForm furniture = {furniture} setFurniture = {setFurniture}/>
-            <FurnitureList furniture={furniture} setFurniture={setFurniture}/>
+            <FurnitureList furniture={displayFurniture} setFurniture={setFurniture}/>
         </main>
     )
 
