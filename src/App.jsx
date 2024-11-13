@@ -1,11 +1,11 @@
 import './App.css'
-import Header from "./components/Header"
+import Title from "./components/Title"
 import FurniturePage from "./components/FurniturePage"
 import Footer from './components/Footer'
 function App() {
   return (
     <div className='main-page'>
-      <Header />
+      <Title />
       <FurniturePage />
       <Footer />
     </div>

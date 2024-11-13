@@ -61,7 +61,7 @@ function FurnitureCard({id,name,image,wood,price,furniture,setFurniture}){
     }
 
     return(
-        <li className='card' data-testid='furniture-item'>
+        <div className='card' data-testid='furniture-item'>
             <img src={image} alt={name}/>
             <h2>{name}</h2>
             <h3>{wood}</h3>
@@ -74,7 +74,7 @@ function FurnitureCard({id,name,image,wood,price,furniture,setFurniture}){
             <button type='submit' className='btn-edit'>Edit Furniture</button>
         </form>
         <button onClick={handleDelete} className='btn-delete'>Delete</button>
-        </li>
+        </div>
 
 
     )

@@ -1,9 +1,17 @@
+import {Link} from 'react-router-dom'
 function Header(){
     return(
-        <span>
-            <h1>Woody Furniture Shop</h1>
-            <p><i>where quality meets affordability</i></p>
-        </span>
+    <>
+        <div className='header'>
+        <nav className='nav'>
+            <Link to={"/"}>Landing Page</Link>
+            <Link to={"/about"}>About</Link>
+            <Link to={"/contact"}>Contact</Link>
+           
+        </nav>
+        </div> 
+    </>
+
     )
 }
 
