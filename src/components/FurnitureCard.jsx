@@ -66,10 +66,10 @@ function FurnitureCard({id,name,image,wood,price,furniture,setFurniture}){
             <h3>{wood}</h3>
             <p>Price: ${price}</p>
             <form onSubmit={handleSubmit}>
-            <input type='text' placeholder='enter new name...' value={newFunData.name} onChange={handleChange}/>
-            <input type='wood-type' placeholder='enter new wood-tye...' value={newFunData.wood} onChange={handleChange}/>
-            <input type='image' placeholder='enter new image-url...' value={newFunData.image} onChange={handleChange}/>
-            <input type='price' placeholder='enter new price...' value={newFunData.price} onChange={handleChange}/>
+            <input type='text' placeholder='enter new name...' value={newFurnData.name} onChange={handleChange}/>
+            <input type='wood-type' placeholder='enter new wood-tye...' value={newFurnData.wood} onChange={handleChange}/>
+            <input type='image' placeholder='enter new image-url...' value={newFurnData.image} onChange={handleChange}/>
+            <input type='price' placeholder='enter new price...' value={newFurnData.price} onChange={handleChange}/>
             <button type='submit' className='btn-edit'>Edit Furniture</button>
         </form>
         <button onClick={handleDelete} className='btn-delete'>Delete</button>
