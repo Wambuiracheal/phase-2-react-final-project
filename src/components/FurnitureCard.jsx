@@ -57,6 +57,7 @@ function FurnitureCard({id,name,image,wood,price,furniture,setFurniture}){
             })
             setFurniture(editedFurniture)
         })
+        .catch(err => console.log(err))
     }
 
     return(
