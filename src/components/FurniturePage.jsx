@@ -17,7 +17,7 @@ function FurniturePage(){
         <main>
             <NewFurnitureForm furniture = {furniture} setFurniture = {setFurniture}/>
             <Search />
-            <FurnitureList furniture={displayFurniture} setFurniture={setFurniture}/>
+            <FurnitureList furniture={furniture} setFurniture={setFurniture}/>
         </main>
     )
 

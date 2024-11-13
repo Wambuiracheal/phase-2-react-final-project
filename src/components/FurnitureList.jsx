@@ -5,13 +5,13 @@ function FurnitureList({furniture,setFurniture}){
 
     return(
         <ul>
-            {furniture.length > 0?furniture.map(fun => (
-                <li key={fun.id}>
+            {furniture.length > 0?furniture.map(furn => (
+                <li key={furn.id}>
                     <FurnitureCard 
-                         name={fun.name}
-                         wood-type={fun.wood-type}
-                         image={fun.image}
-                         price={fun.price}
+                         name={furn.name}    
+                         wood={furn.wood}
+                         image={furn.image}
+                         price={furn.price}
                          furniture={furniture}
                          setFurniture={setFurniture}
                     />
