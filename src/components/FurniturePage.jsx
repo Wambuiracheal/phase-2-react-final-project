@@ -5,7 +5,7 @@ import Search from  "./Search"
 
 function FurniturePage(){
     const[furniture,setFurniture] = useState([])
-    const[searchFurniture,setSearchFurniture] = useState([])
+    const[searchFurniture,setSearchFurniture] = useState("")
     useEffect(() => {
         fetch('http://localhost:3000/furniture')
         .then(res => res.json())
@@ -15,8 +15,8 @@ function FurniturePage(){
     },[])
 
     //setting the search button
-    const displayFurniture = furniture.filter((woody) => woody.name.toLowerCase().includes(searchFurniture.toLowerCase()))
-
+    const displayFurniture = furniture.filter((woody) => woody.name.toLowerCase().includes(searchFurniture.toLowerCase())
+)
     return(
         <main>
             <Search searchforme = {setSearchFurniture}/>
