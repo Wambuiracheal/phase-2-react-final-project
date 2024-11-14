@@ -4,10 +4,29 @@ function Contact(){
     return(
         <div className='contacts'>
             <h1>OUR CONTACT DETAILS</h1>
-            <p >Whatsapp</p>
-            <p>Instagram <i class="fi fi-brands-instagram"></i></p>
-            <p>Email <i class="fi fi-rr-envelope"></i></p>
-            <p>LinkedIn <i class="fi fi-brands-linkedin"></i></p>
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                    <i class="fa fa-whatsapp fa-stack-1x"></i>
+                </span>
+                Whatsapp<br />
+                <br />
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                    <i class="fa fa-instagram fa-stack-1x"></i>
+                </span>
+                Instagram<br />
+                <br />
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x"></i>
+                </span>
+                Twitter<br />
+                <br />
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                    <i class="fa fa-envelope fa-stack-1x"></i>
+                </span>
+                Email<br />
         </div>
         
     )
