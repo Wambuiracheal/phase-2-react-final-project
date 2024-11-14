@@ -42,7 +42,7 @@ function NewFurnitureForm({furniture,setFurniture}){
     }
     return(
         <div className="new-furniture">
-            <h2>Add a new Furniture below:</h2>
+            <h2>Add a new Furniture here:</h2>
             <form onSubmit={handleSubmit}>
             <input type='text' name="name" placeholder='enter new name...' value={newFurn.name} onChange={handleChange}/><br />
             <input type='text' name="wood" placeholder='enter new wood-type...' value={newFurn.wood} onChange={handleChange}/><br />
