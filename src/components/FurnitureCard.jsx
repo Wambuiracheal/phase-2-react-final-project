@@ -13,12 +13,12 @@ function FurnitureCard({id,name,image,wood,price,furniture,setFurniture}){
         fetch(`https://woody-furniture-shop.onrender.com/furniture/${id}`,{
             method: "DELETE",
             headers:{
-                "Content-type": "application/json"
+                "Content-Type": "application/json"
             }
         })
         .then(res => res.json())
         .then(() => {
-            let remainderOfFurn = furniture.filter(furn = furn.id !== id)
+            let remainderOfFurn = furniture.filter(furn => furn.id !== id)
             setFurniture(remainderOfFurn)
         })
         .catch(err => console.log(err))
@@ -41,14 +41,14 @@ function FurnitureCard({id,name,image,wood,price,furniture,setFurniture}){
         fetch(`https://woody-furniture-shop.onrender.com/furniture/${id}`,{
             method: "PATCH",
             headers:{
-                "Content-type": "application/json"
+                "Content-Type": "application/json"
             },
             body: JSON.stringify(newFurnData)
         })
         .then (res => res.json())
         .then (furnt => {
             let editedFurniture = furniture.map(furn =>{
-                if(furn.id === furnt.id){
+                if(furn.id === id){
                     furn.name= furnt.name,
                     furn.wood= furnt.wood,
                     furn.price= furnt.price
@@ -56,6 +56,7 @@ function FurnitureCard({id,name,image,wood,price,furniture,setFurniture}){
                 return(furn)
             })
             setFurniture(editedFurniture)
+            alert(`updated ${name}`)
         })
         .catch(err => console.log(err))
     }
