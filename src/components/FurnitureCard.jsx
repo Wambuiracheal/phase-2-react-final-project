@@ -10,7 +10,7 @@ function FurnitureCard({id,name,image,wood,price,furniture,setFurniture}){
 
     //DELETE FUNCTION
     function handleDelete(){
-        fetch(`http://localhost:3000/furniture/${id}`,{
+        fetch(`https://woody-furniture-shop.onrender.com/furniture/${id}`,{
             method: "DELETE",
             headers:{
                 "Content-type": "application/json"
@@ -38,7 +38,7 @@ function FurnitureCard({id,name,image,wood,price,furniture,setFurniture}){
 
     //EDIT FUNCTION
     function handleSubmit(){
-        fetch(`http://localhost:3000/furniture/${id}`,{
+        fetch(`https://woody-furniture-shop.onrender.com/furniture/${id}`,{
             method: "PATCH",
             headers:{
                 "Content-type": "application/json"

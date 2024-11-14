@@ -7,7 +7,7 @@ function FurniturePage(){
     const[furniture,setFurniture] = useState([])
     const[searchFurniture,setSearchFurniture] = useState("")
     useEffect(() => {
-        fetch('http://localhost:3000/furniture')
+        fetch('https://woody-furniture-shop.onrender.com/furniture')
         .then(res => res.json())
         .then(data => {
             setFurniture(data)

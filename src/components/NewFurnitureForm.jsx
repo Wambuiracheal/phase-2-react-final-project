@@ -22,7 +22,7 @@ function NewFurnitureForm({furniture,setFurniture}){
 
     //handle new plant
     function handleSubmit(){
-        fetch('http://localhost:3000/furniture',{
+        fetch('https://woody-furniture-shop.onrender.com/furniture',{
             method: "POST",
             headers:{
                 "Content-Type": "application/json"
