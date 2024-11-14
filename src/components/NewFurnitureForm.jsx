@@ -44,11 +44,11 @@ function NewFurnitureForm({furniture,setFurniture}){
         <div className="new-furniture">
             <h2>Add a new Furniture below:</h2>
             <form onSubmit={handleSubmit}>
-            <input type='text' name="name" placeholder='enter new name...' value={newFurn.name} onChange={handleChange}/>
-            <input type='text' name="wood" placeholder='enter new wood-type...' value={newFurn.wood} onChange={handleChange}/>
-            <input type='text' name="image" placeholder='enter new image-url...' value={newFurn.image} onChange={handleChange}/>
-            <input type='number' name="price" placeholder='enter new price...' value={newFurn.price} onChange={handleChange}/>
-            <button type="submit">Add</button>
+            <input type='text' name="name" placeholder='enter new name...' value={newFurn.name} onChange={handleChange}/><br />
+            <input type='text' name="wood" placeholder='enter new wood-type...' value={newFurn.wood} onChange={handleChange}/><br />
+            <input type='text' name="image" placeholder='enter new image-url...' value={newFurn.image} onChange={handleChange}/><br />
+            <input type='number' name="price" placeholder='enter new price...' value={newFurn.price} onChange={handleChange}/><br />
+            <button type="submit" className="btn-edit">Add</button>
         </form>
         </div>
     )

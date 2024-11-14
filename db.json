@@ -9,31 +9,38 @@
     },
     {
       "id": "2",
-      "name": "Coffee Table",
-      "wood": "Maple",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcPW3MGBvaTf5Y80b8wHVVVb31nZtCGsQaJA&s",
-      "price": 70
+      "name": "Dinning Table",
+      "wood": "Oak",
+      "image": "https://m.media-amazon.com/images/I/8100jx6ZW9L._AC_UF894,1000_QL80_.jpg",
+      "price": 100
     },
     {
       "id": "3",
-      "name": "Bed",
-      "wood": "Oak",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvqiM4yjC4-7Ojj6kn192eYP0uDI8k1cNjnA&s",
-      "price": 200
+      "name": "Comfortable Bed",
+      "wood": "Mahogany",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Fucu36E1fAQUOw29G3bC_uDQgxmKPhoyjQ&s",
+      "price": "130"
     },
     {
       "id": "4",
-      "name": "Coffee Table",
-      "wood": "Maple",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcPW3MGBvaTf5Y80b8wHVVVb31nZtCGsQaJA&s",
-      "price": 70
+      "name": "Study Table",
+      "wood": "Cherry",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6yyOoEyI-BucnMnJVU0s6AFYbCAn_bxdV1g&s",
+      "price": 60
     },
     {
       "id": "5",
-      "name": "Coffee Table",
-      "wood": "Maple",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcPW3MGBvaTf5Y80b8wHVVVb31nZtCGsQaJA&s",
-      "price": 70
+      "name": "walking closed",
+      "wood": "Teak",
+      "image": "https://www.shutterstock.com/image-illustration/3d-rendering-illustration-interior-scene-260nw-2469747807.jpg",
+      "price": 200
+    },
+    {
+      "id": "3314",
+      "name": "Fldable table",
+      "wood": "cypress",
+      "image": "https://i.etsystatic.com/17155483/r/il/751488/2874171396/il_1080xN.2874171396_3vod.jpg",
+      "price": "59"
     }
   ]
 }

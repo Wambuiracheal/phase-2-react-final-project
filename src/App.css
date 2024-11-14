@@ -1,17 +1,13 @@
 #root {
-  max-width: 1200px; 
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 2rem;
   text-align: center;
-  background-color: rgba(222, 184, 135, 0.3);
+  background-color: 	rgb(123, 63, 0);
+  width: 100vw;
 }
 
 #image{
-  width: 350px;
-  height: 200px;
+  width: 250px;
+  height: 150px;
+  border-radius: 20px;
 }
 
 .cards{
@@ -19,4 +15,94 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   list-style-type: none;
+}
+
+.card{
+  background-color: 	rgb(218, 160, 109);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.card input{
+  padding: 10px;
+  margin: 5px;
+  background-color: black;
+  border-color: rgb(218, 160, 109);
+  border-radius: 10px;
+}
+
+#header{
+  background-color: rgb(218, 160, 109);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.btn-edit{
+  background-color: black;
+}
+
+.btn-delete{
+  background-color: black;
+  
+}
+
+#link-nav{
+  color: rgb(123, 63, 0);
+  font-size: 17px;
+}
+.title h1{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  font-weight: bolder;
+  font-size: 70px;
+  margin-bottom: 0%;
+}
+
+.title p{
+  padding-top: 0px;
+}
+
+.new-furniture{
+background-color: 	rgb(218, 160, 109);
+color: rgb(123, 63, 0);
+margin-bottom: -10px;
+height: 30vh;
+width: 60vw;
+margin-left: 200px;
+border-radius: 10px;
+margin-bottom: 30px;
+flex-wrap: wrap;
+overflow: auto;
+}
+
+.new-furniture input{
+  padding: 10px;
+  margin:2px;
+  border-radius: 10px;
+  color: white;
+}
+
+.btn-edit:hover{
+  background-color:  rgb(123, 63, 0);
+}
+
+.search-me{
+  margin-top: 20px;
+  color: aliceblue;
+  font-weight: 400;
+}
+
+.search-me input{
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.about{
+  width: 100vw;
+  height: 100vh;
+}
+.contacts{
+  width: 100vw;
+  height: 100vh;
 }
