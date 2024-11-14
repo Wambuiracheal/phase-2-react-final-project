@@ -84,18 +84,23 @@ overflow: auto;
 }
 
 .btn-edit:hover{
-  background-color:  rgb(123, 63, 0);
+  background-color:  green;
+}
+
+.btn-delete:hover{
+  background-color: red;
 }
 
 .search-me{
   margin-top: 20px;
   color: aliceblue;
-  font-weight: 400;
+  font-weight: 400; 
 }
 
 .search-me input{
   padding: 10px;
   border-radius: 10px;
+  background-color: black;
 }
 
 .about{
@@ -106,3 +111,20 @@ overflow: auto;
   width: 100vw;
   height: 100vh;
 }
+
+.item{
+  color:rgb(123, 63, 0);
+  margin-bottom: -8%;
+}
+
+.item-2{
+  color:rgb(123, 63, 0);
+  margin-bottom: -6%;
+}
+
+.item-3{
+  color:rgb(123, 63, 0);
+ 
+}
+
+

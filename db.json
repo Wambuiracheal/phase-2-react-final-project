@@ -34,13 +34,6 @@
       "wood": "Teak",
       "image": "https://www.shutterstock.com/image-illustration/3d-rendering-illustration-interior-scene-260nw-2469747807.jpg",
       "price": 200
-    },
-    {
-      "id": "3314",
-      "name": "Fldable table",
-      "wood": "cypress",
-      "image": "https://i.etsystatic.com/17155483/r/il/751488/2874171396/il_1080xN.2874171396_3vod.jpg",
-      "price": "59"
     }
   ]
 }

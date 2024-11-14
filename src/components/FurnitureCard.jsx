@@ -63,9 +63,9 @@ function FurnitureCard({id,name,image,wood,price,furniture,setFurniture}){
     return(
         <div className='card'>
             <img id='image' src={image} alt={name}/>
-            <h2>{name}</h2>
-            <h3>{wood}</h3>
-            <p>Price: ${price}</p>
+            <h2 className='item'>{name}</h2>
+            <h3 className='item-2'>{wood}</h3>
+            <h4 className='item-3'>${price}</h4>
             <form onSubmit={handleSubmit}>
             <input type='text' name='name' placeholder='enter new name...' value={newFurnData.name} onChange={handleChange}/><br />
             <input type='text' name='wood' placeholder='enter new wood-tye...' value={newFurnData.wood} onChange={handleChange}/><br />
