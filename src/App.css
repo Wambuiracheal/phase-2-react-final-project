@@ -81,6 +81,7 @@ overflow: auto;
   margin:2px;
   border-radius: 10px;
   color: white;
+  background-color: black;
 }
 
 .btn-edit:hover{
