@@ -30,7 +30,14 @@
     },
     {
       "id": "5",
-      "name": "walking closed",
+      "name": "walkin closet",
+      "wood": "Teak",
+      "image": "https://www.shutterstock.com/image-illustration/3d-rendering-illustration-interior-scene-260nw-2469747807.jpg",
+      "price": 200
+    },
+    {
+      "id": "6",
+      "name": "pen holder",
       "wood": "Teak",
       "image": "https://www.shutterstock.com/image-illustration/3d-rendering-illustration-interior-scene-260nw-2469747807.jpg",
       "price": 200

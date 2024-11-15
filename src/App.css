@@ -74,6 +74,10 @@ border-radius: 10px;
 margin-bottom: 30px;
 flex-wrap: wrap;
 overflow: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0;
 }
 
 .new-furniture input{
