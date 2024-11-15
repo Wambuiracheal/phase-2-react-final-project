@@ -14,7 +14,24 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  list-style-type: none;
+  gap: 20px;
+  padding: 20px;
+  list-style: none;
+  margin: 0;
+}
+
+.cards li {
+  flex: 1 1 300px;
+  max-width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.cards li:hover {
+  transform: translateY(-10px);
 }
 
 .card{
@@ -66,18 +83,12 @@
 .new-furniture{
 background-color: 	rgb(218, 160, 109);
 color: rgb(123, 63, 0);
-margin-bottom: -10px;
-height: 70vh;
-width: 60vw;
-margin-left: 200px;
-border-radius: 10px;
-margin-bottom: 30px;
-flex-wrap: wrap;
-overflow: auto;
-display: flex;
-justify-content: center;
-align-items: center;
-margin: 0;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+max-width: 400px;
+margin: 0 auto;
+font-family: Arial, sans-serif;
 }
 
 .new-furniture input{
