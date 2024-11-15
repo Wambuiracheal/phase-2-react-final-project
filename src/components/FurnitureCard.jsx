@@ -27,7 +27,6 @@ function FurnitureCard({id,name,image,wood,price,furniture,setFurniture}){
 
     //HANDLEEDIT FUNCTION
     function handleChange(e){
-        e.preventDefault()
         let name = e.target.name
         let value = e.target.value
 
@@ -38,8 +37,7 @@ function FurnitureCard({id,name,image,wood,price,furniture,setFurniture}){
     }
 
     //EDIT FUNCTION
-    function handleSubmit(e){
-        e.preventDefault()
+    function handleSubmit(){
         fetch(`https://woody-furniture-shop.onrender.com/furniture/${id}`,{
             method: "PATCH",
             headers:{
